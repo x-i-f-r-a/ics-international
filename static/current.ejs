@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current</title>
+</head>
+<body>
+    <h5 class="users"></h5>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    socket = new io.connect();
+    socket.on('message', message);
+
+    function message(msg) {
+
+
+
+        if (msg.count) {
+            document.querySelector('.users').innerText = 'Current Users: ' + msg.count
+        }
+        console.log(msg)
+};
+</script>
+</html>
