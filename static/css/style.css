@@ -1,13 +1,12 @@
-
 html,
 body {
 	height: 100%;
 	font-family: "Work Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
 }
 
 h1,
@@ -90,7 +89,7 @@ ol {
 
 .section-title h4 {
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 700;
 	color: #171822;
 }
@@ -198,9 +197,10 @@ ol {
 /*---------------------
   Hero
 -----------------------*/
-.assos{
+.assos {
 	float: left;
-	color: #6a6b7c;;
+	color: #6a6b7c;
+	;
 }
 
 .hero-section {
@@ -298,19 +298,21 @@ ol {
   Schedule Section
 -----------------------*/
 
-.head{
+.head {
 	color: rgb(25, 61, 112);
 }
 
-table, th, td {
-	  border: 1px solid black;
-	  border-collapse: collapse;
-	  padding: 5px;
-	  table-layout: fixed;
-	  width: 100%;
-	  word-wrap: break-word;
-	  word-break: break-word;
-	}
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+	table-layout: fixed;
+	width: 100%;
+	word-wrap: break-word;
+	word-break: break-word;
+}
 
 
 
@@ -363,7 +365,7 @@ table, th, td {
 
 .schedule-tab .st-content {
 	text-align: justify;
-	
+
 }
 
 .schedule-tab2 .st-content {
@@ -371,10 +373,10 @@ table, th, td {
 	color: white;
 	margin-bottom: 40px;
 	background-color: rgb(25, 61, 112);
-	
+
 }
 
-.schedule-tab2 .st-content .sc-text{
+.schedule-tab2 .st-content .sc-text {
 	font-size: 20px;
 }
 
@@ -382,7 +384,7 @@ table, th, td {
 	text-align: justify;
 	padding: 15px;
 	margin-bottom: 40px;
-	background-color:  rgb(25, 61, 112);
+	background-color: rgb(25, 61, 112);
 	color: white;
 }
 
@@ -390,17 +392,19 @@ table, th, td {
 	text-align: justify;
 	border-radius: 2px;
 	margin-bottom: 40px;
-	
+
 }
-.schedule-tab5 .st-content b{
+
+.schedule-tab5 .st-content b {
 	font-size: 25px;
 }
+
 .schedule-tab3 .st-content {
 	text-align: justify;
 	border: 1px solid white;
 	border-radius: 2px;
 	margin-bottom: 40px;
-	
+
 }
 
 .schedule-tab .st-content .sc-pic {
@@ -409,11 +413,11 @@ table, th, td {
 }
 
 
-.schedule-tab .st-content table td{
+.schedule-tab .st-content table td {
 	padding-left: 25px;
 }
 
-.schedule-tab .st-content table td li{
+.schedule-tab .st-content table td li {
 	padding-left: 25px;
 }
 
@@ -422,6 +426,7 @@ table, th, td {
 	width: 120px;
 	border-radius: 50%;
 }
+
 .schedule-tab .st-content .sc-text img {
 	height: 420px !important;
 	width: 420px !important;
@@ -579,9 +584,10 @@ table, th, td {
 	margin-bottom: 40px;
 }
 
-.contact-section .section-title b{
+.contact-section .section-title b {
 	font-size: 40px;
 }
+
 .cs-text .ct-address span {
 	font-size: 16px;
 	color: #6a6b7c;
@@ -1667,6 +1673,7 @@ table, th, td {
 		height: 350px;
 		width: 300px;
 	}
+
 	.container {
 		max-width: 1170px;
 	}
@@ -1679,117 +1686,149 @@ table, th, td {
 		height: 350px;
 		width: 300px;
 	}
+
 	.section-title {
 		text-align: center;
 		margin-bottom: 10px;
 	}
+
 	.nav-menu .mainmenu ul li {
 		margin-right: 25px;
 	}
+
 	.hero-section .hero-text {
 		padding-top: 110px;
 	}
+
 	.counter-section .cd-timer .cd-item {
 		margin-left: 25px;
 	}
+
 	.ha-text {
 		padding-top: 0;
 	}
+
 	.member-item {
 		width: 25%;
 		height: 310px;
 	}
+
 	.testimonial-slider.owl-carousel .owl-nav button {
 		left: -10px;
 	}
+
 	.testimonial-slider.owl-carousel .owl-nav button.owl-next {
 		right: -10px;
 	}
+
 	.newslatter-inner .ni-form {
 		width: 350px;
 	}
+
 	.cc-text {
 		padding-top: 65px;
 	}
 }
 
 @media only screen and (max-width: 991px) {
-	#reg{
+	#reg {
 		word-break: break-all;
 	}
+
 	#reg .schedule-tab .st-content img {
 		height: 350px;
 		width: 300px;
 	}
-	
+
 	.schedule-tab .st-content .sc-pic {
 		text-align: left;
 		padding: 30px 0 0;
 	}
+
 	.schedule-tab .st-content .sc-text {
 		padding: 30px 0 0;
 	}
+
 	.schedule-tab .st-content .sc-widget {
 		padding: 30px 0;
 	}
+
 	.schedule-tab .st-content {
 		padding-left: 30px;
 	}
+
 	.section-title {
 		text-align: center;
 		margin-bottom: 10px;
 	}
+
 	.price-item.top-rated {
 		margin-top: 0;
 	}
+
 	.latest-item.large-item {
 		height: 550px;
 		margin-right: 0;
 		margin-left: 0;
 	}
+
 	.latest-item {
 		margin-left: 0;
 	}
+
 	.cs-map {
 		margin-top: 20px;
 	}
+
 	.about-text {
 		margin-top: 30px;
 	}
+
 	.story-right {
 		padding-left: 0;
 	}
+
 	.newslatter-inner .ni-text {
 		float: none;
 	}
+
 	.newslatter-inner .ni-form {
 		float: none;
 		margin-top: 30px;
 	}
+
 	.testimonial-slider.owl-carousel .owl-nav button {
 		left: -10px;
 	}
+
 	.testimonial-slider.owl-carousel .owl-nav button.owl-next {
 		right: -10px;
 	}
+
 	.counter-section .counter-text {
 		margin-bottom: 30px;
 	}
+
 	.counter-section .cd-timer {
 		text-align: left;
 	}
+
 	.speaker-item .si-text .si-title {
 		padding-top: 30px;
 	}
+
 	.bd-text .bd-more-pic img {
 		margin-bottom: 10px;
 	}
+
 	.cc-text {
 		padding-left: 40px;
 	}
+
 	.ha-pic {
 		margin-right: 0;
 	}
+
 	.hero-section .hero-text {
 		margin-bottom: 20px;
 	}
@@ -1798,29 +1837,36 @@ table, th, td {
 /* Tablet Device: 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	
+
 	.section-title {
 		text-align: center;
 		margin-bottom: 10px;
 	}
-	#reg{
+
+	#reg {
 		word-break: break-word;
 	}
+
 	.nav-menu .primary-btn.top-btn {
 		display: none;
 	}
+
 	.nav-menu .mainmenu ul li {
 		margin-right: 20px;
 	}
+
 	.bh-text h2 {
 		font-size: 45px;
 	}
+
 	.nav-menu .mainmenu ul li:last-child {
 		margin-right: 0;
 	}
+
 	.hero-section .hero-text {
 		margin-bottom: 20px;
 	}
+
 	.member-item {
 		width: 33.33%;
 	}
@@ -1834,67 +1880,84 @@ table, th, td {
 		position: absolute;
 		right: 230px;
 	}
+
 	.section-title {
 		text-align: center;
 		margin-bottom: 3px;
 	}
-	#reg{
+
+	#reg {
 		word-break: break-word;
 	}
+
 	#prgrm-schedule .time {
 		font-size: 15px;
-		
-	  }
-	
-	
+
+	}
+
+
 	.counter-section .cd-timer .cd-item {
 		margin-bottom: 10px;
 	}
+
 	.member-item {
 		width: 50%;
 	}
+
 	.newslatter-inner {
 		padding: 60px 50px 48px;
 	}
+
 	.newslatter-inner .ni-form {
 		width: 350px;
 	}
+
 	.footer-text ul li {
 		margin-right: 15px;
 	}
+
 	.schedule-table-tab .schedule-table-content {
 		overflow-x: hidden;
-		
+
 	}
+
 	.schedule-table-tab .nav-tabs .nav-item {
 		width: 33.33%;
 	}
+
 	.bd-text .bd-tag-share .tag {
 		float: none;
 		margin-top: 0;
 		margin-bottom: 25px;
 	}
+
 	.bd-text .bd-tag-share .s-share {
 		float: none;
 	}
+
 	.slicknav_menu {
 		display: block;
 		background: transparent;
 		padding: 0;
 	}
+
 	.nav-menu .mainmenu {
 		display: none;
 	}
+
 	.nav-menu .primary-btn.top-btn {
 		display: none;
 	}
+
 	.slicknav_btn {
 		margin: 34px 0;
 		border-radius: 0;
 	}
+
 	.slicknav_nav {
 		background: #222;
 	}
+
 	.slicknav_nav .slicknav_row,
 	.slicknav_nav a {
 		margin: 0;
@@ -1903,37 +1966,46 @@ table, th, td {
 		-o-transition: all 0.3s;
 		transition: all 0.3s;
 	}
+
 	.slicknav_nav ul {
 		margin: 0;
 	}
+
 	.slicknav_nav a:hover {
 		border-radius: 0;
 		background: #f44949;
 		color: #ffffff;
 	}
+
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: #f44949;
 		color: #ffffff;
 	}
+
 	.member-item .mi-text {
 		left: -1000px;
 	}
+
 	.bh-text h2,
 	.hero-section .hero-text h2 {
 		font-size: 40px;
 		line-height: normal;
 	}
+
 	.counter-section .cd-timer .cd-item {
 		margin-right: 10px;
 		margin-left: 0;
 	}
+
 	.counter-section .cd-timer .cd-item:last-child {
 		margin-right: 0;
 	}
+
 	.testimonial-slider.owl-carousel {
 		text-align: center;
 	}
+
 	.testimonial-slider.owl-carousel .owl-nav button {
 		margin-top: 10px;
 		position: relative;
@@ -1948,51 +2020,65 @@ table, th, td {
 		position: absolute;
 		right: 102px;
 	}
+
 	.section-title {
 		text-align: center;
 		margin-bottom: 10px;
 	}
+
 	.bh-text h2,
 	.hero-section .hero-text h2 {
 		font-size: 36px;
 		line-height: normal;
 	}
+
 	.newslatter-inner {
 		padding: 60px 20px 48px;
 	}
+
 	.counter-section .cd-timer .cd-item {
 		margin-right: 10px;
 		margin-left: 0;
 	}
+
 	.schedule-tab .nav-tabs .nav-item {
 		width: 33.33%;
 	}
+
 	.member-item {
 		width: 100%;
 	}
+
 	.newslatter-inner .ni-form {
 		width: 100%;
 	}
+
 	.newslatter-inner .ni-form button {
 		width: 95px;
 	}
+
 	.newslatter-inner .ni-form input {
 		padding-right: 100px;
 	}
+
 	.footer-text ul li {
 		margin-bottom: 10px;
 	}
+
 	.schedule-table-tab .nav-tabs .nav-item {
 		width: 50%;
 	}
+
 	.cc-text {
 		padding-left: 30px;
 		padding-top: 35px;
 	}
+
 	.story-item h2 {
 		float: none;
 		margin-bottom: 10px;
 	}
+
 	.bd-text .bd-tag-share .s-share a {
 		font-size: 14px;
 		height: 35px;
@@ -2089,5 +2175,3 @@ table, th, td {
 	color: #6a6b7c;
 	line-height: 20px;
 }
-
-
