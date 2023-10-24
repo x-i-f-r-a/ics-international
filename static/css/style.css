@@ -447,7 +447,7 @@ td {
 	display: inline-block;
 	font-size: 16px;
 	color: #212529;
-	margin-right: 25px;
+	margin-right: 29px;
 	position: relative;
 }
 
@@ -475,8 +475,8 @@ td {
 	font-size: 16px;
 	color: #6a6b7c;
 	line-height: 32px;
+	padding-right: 10px;
 	position: relative;
-	padding-left: 22px;
 	word-wrap: break-word;
 }
 
