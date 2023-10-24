@@ -677,7 +677,9 @@ td {
 }
 
 .footer-text .ft-logo {
-	margin-bottom: 20px;
+	height: 200px;
+	width: 200px;
+	margin-bottom: 10px;
 }
 
 .footer-text .ft-logo a {
@@ -714,7 +716,7 @@ td {
 .footer-text .copyright-text {
 	font-size: 14px;
 	color: #a0a1b5;
-	margin-bottom: 28px;
+	margin-bottom: 10px;
 }
 
 .footer-text .copyright-text i {
@@ -726,9 +728,9 @@ td {
 }
 
 .footer-text .copyright-text a:hover {
-	color: #f44949;
+	color: #2bbaff;
 }
-
+/* 
 .footer-text .ft-social a {
 	display: inline-block;
 	width: 40px;
@@ -744,7 +746,7 @@ td {
 
 .footer-text .ft-social a:last-child {
 	margin-right: 0;
-}
+} */
 
 /* ----------------------------------- Other Pages Styles ------------------------------- */
 
